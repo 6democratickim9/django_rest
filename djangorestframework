@@ -1,0 +1,21 @@
+Name: pytz
+Version: 2020.1
+Summary: World timezone definitions, modern and historical
+Home-page: http://pythonhosted.org/pytz
+Author: Stuart Bishop
+Author-email: stuart@stuartbishop.net
+License: MIT
+Location: c:\programdata\anaconda3\lib\site-packages
+Requires: 
+Required-by: pandas, Django, conda-build, Babel, anaconda-client
+---
+Name: Django
+Version: 3.1.5
+Summary: A high-level Python Web framework that encourages rapid development and clean, pragmatic design.
+Home-page: https://www.djangoproject.com/
+Author: Django Software Foundation
+Author-email: foundation@djangoproject.com
+License: BSD-3-Clause
+Location: c:\programdata\anaconda3\lib\site-packages
+Requires: sqlparse, pytz, asgiref
+Required-by: djangorestframework
